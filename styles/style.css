@@ -55,7 +55,7 @@ body{
 }
 
 #failure{
-    margin: 131px 322px 226px 220px;
+    margin: 131px 322px 0px 220px;
 }
 
 .failure-container{
@@ -87,6 +87,42 @@ body{
     color: #444343;
 }
 
+#plans{
+    max-width: 1141px;
+    /* border: 1px solid red; */
+    margin: 130px auto;
+    text-align: center;
+}
+
+.plan-container h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #151414;
+}
+
+.all-plan{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-card img{
+    width: 90px;
+    /* margin: auto; */
+}
+
+.plan-card h2{
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.plan-card p{
+    font-size: 25px;
+    color: #737272;
+}
+
+/* .plan-card p{
+    text-align: center;
+} */
 
 
 /* 
