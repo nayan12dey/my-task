@@ -46,7 +46,7 @@ body{
     margin-bottom: 32px;
 }
 
-.banner-content .btn{
+.banner-content .btn, .positive .btn{
     padding: 15px 20px;
     font-size: 20px;
     color: #005FAC;
@@ -119,6 +119,34 @@ body{
     font-size: 25px;
     color: #737272;
 }
+
+#mindset{
+    width: 1140px;
+    /* border: 1px solid red; */
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 130px auto;
+    border-radius: 8px;
+}
+
+.positive{
+    padding: 59px 617px 59px 64px;
+    /* border: 1px solid red; */
+    background-image: url("../images/gradient1.png");
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.positive h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+
+
 
 /* .plan-card p{
     text-align: center;
