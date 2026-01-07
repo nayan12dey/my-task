@@ -19,7 +19,7 @@ body{
     background-position: center;
     width: 100%;
     height: 808px;
-    /* border: 1px solid red; */
+    /* border: 5px solid rgb(7, 252, 3); */
 }
 
 .banner-container{
@@ -54,12 +54,15 @@ body{
     border-radius: 5px;
 }
 
+#failure{
+    margin: 131px 322px 226px 220px;
+}
+
 .failure-container{
     max-width: 1072px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-around;
-    margin: 131px 332 px 0 auto;
 }
 
 .failure-container .failure-image img{
@@ -67,8 +70,21 @@ body{
 }
 
 .failure-container .failure-content{
-    width: 350px;
-    /* margin: auto; */
+    width: 416px;
+    margin: auto;
+    
+}
+
+.failure-content h1{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-content p{
+    width: 390px;
+    margin-bottom: 16px;
+    color: #444343;
 }
 
 
