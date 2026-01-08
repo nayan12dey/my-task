@@ -148,12 +148,11 @@ body{
 footer{
     background-color: #151414;
     max-width: 100%;
-
 }
 
 .footer-container{
     height: 500px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     padding: 130px 230px;
@@ -174,7 +173,7 @@ footer{
     line-height: 23px;
 }
 
-.future h2 , p{
+.future h2 , .future p{
     margin-bottom: 18px;
 }
 
@@ -184,7 +183,46 @@ footer{
     gap: 18px;
 }
 
+.subscribe-container{
+    width: 325px;
+    text-align: left;
+}
 
+.subscribe-container h4{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+
+.subscribe-container input[type="email"]{
+    border: 1px solid #FFFFFF;
+    width: 325px;
+    height: 64px;
+    background-color: #151414;
+    color: #F3F3F3;
+    padding: 21px 22px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.subscribe-container .btn{
+    width: 150px;
+    height: 64px;
+    padding: 20px auto;
+    font-size: 20px;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+}
+
+.copyright{
+    color: #6B7280; 
+    text-align: center; 
+    padding: 20px;
+}
 
 /* .plan-card p{
     text-align: center;
